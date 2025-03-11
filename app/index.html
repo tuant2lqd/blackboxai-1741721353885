@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white p-4 shadow">
+        <input type="text" placeholder="Search..." class="border rounded w-full p-2">
+    </header>
+    <main class="p-4">
+        <section class="mt-4">
+            <h2 class="text-xl font-bold">Recommended</h2>
+            <div class="grid grid-cols-2 gap-4 mt-2">
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="shoe1.jpg" alt="Shoe 1" class="w-full h-32 object-cover rounded">
+                    <h3 class="mt-2">Shoe 1</h3>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <img src="shoe2.jpg" alt="Shoe 2" class="w-full h-32 object-cover rounded">
+                    <h3 class="mt-2">Shoe 2</h3>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+        <section class="mt-4">
+            <h2 class="text-xl font-bold">Categories</h2>
+            <div class="flex space-x-4 mt-2">
+                <div class="bg-blue-500 text-white p-4 rounded">Category 1</div>
+                <div class="bg-blue-500 text-white p-4 rounded">Category 2</div>
+                <div class="bg-blue-500 text-white p-4 rounded">Category 3</div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
